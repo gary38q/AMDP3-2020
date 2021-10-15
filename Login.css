@@ -1,0 +1,24 @@
+.Gambar{
+    width: 200px;
+}
+
+#Tulisan_Besars{
+    font-size: 30px;
+    text-align: left;
+}
+
+.Login_Form{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    border: 2px solid black;
+    text-align: left;
+}
+
+hr{
+    border-color: #38b6ff;
+}
+
+form{
+    text-align: left;
+}

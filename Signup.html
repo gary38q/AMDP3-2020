@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="Signup.js"></script>
+</head>
+<body>
+    <a href="index.php"><img src="Logo JustStore.png" class="Gambar_Utama" style="margin-top: 15px;"></a>
+
+    <form action="#" >
+        <input type="text" placeholder="Search" id="Pencari" style="margin-left: 10px; margin-top: 15px; height: 30px;width:60%;">
+        <button type="submit" id="Tombol_Pencari" class="Tombol_Pencari" style="margin-left: 5px;margin-top: 15px;">
+            <img src="Icon Search.png" ></button>
+    </form>
+    <a class="Regis_Link" href="Index.php" style="margin-top: 10px;text-decoration:none;">Home</a>
+    <br><br><br><br>
+    <center> <img src="Logo JustStore.png" class="Gambar_Signup"> </center>
+    <br><br>
+    <center>
+        <div class="Regis_Form">
+            <strong><div id="Tulisan_Besar">Register</div></strong>
+            <div class="Login_Button">Already have JustStore Account? <a href="Login.html">Login</a></div>
+            <hr>
+            <form action="Signup.php" method="POST" onsubmit="return Validate()" class="RegisForm" enctype="multipart/form-data">
+                <div>
+                    Name 
+                    <span><input name="nama" type="text" placeholder="Enter Your Name" class="form-control input-sm" id="Name"  required></span>
+                    <span class="error" id="Name_Error"></span>
+                </div>
+                <br>
+                <div>
+                    Gender<br>
+                    <span><input type="radio" name="Radio" id="RadioM" value="Male">Male 
+                    <input type="radio" name="Radio" id="RadioF" value="Female">Female</span><br>
+                    <span class="error" id="Gender_Error"></span>
+                </div>
+                <br>
+                <div>
+                    Phone
+                    <span><input name="Num" type="number" placeholder="Enter Your Phone Number" class="form-control input-sm" id="Number" name="Num" required></span>
+                    <span class="error" id="Number_Error"></span>
+                </div>
+                <br>
+                <div>
+                    Email
+                    <span><input type="email" name="email" placeholder="Enter Your Email" class="form-control input-sm" id="email"  required></span>
+                    <span class="error" id="Email_Error"></span>
+                </div>
+                <br>
+                <div>
+                    Password
+                    <span><input type="password" name="Password" placeholder="Enter Your Password" class="form-control input-sm" id="Password" required></span>
+                    <span class="error" id="Pass_Error"></span>
+                </div>
+                <br>
+                <div>
+                    Re-Password
+                    <span><input type="password" placeholder="Re-Enter Your Password" class="form-control input-sm" id="RePassword" required></span>
+                    <span class="error" id="Re_Pass_Error"></span>
+                </div>
+                <br>
+                <button type="submit" class="btn-lg" style="width: 100%; background-color: #38b6ff;">Register</button>
+            </form><br>
+            
+        </div>
+    </center>
+    <br> <br> <br>
+    
+</body>
+</html>

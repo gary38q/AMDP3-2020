@@ -1,0 +1,33 @@
+
+.Gambar_Signup{
+    width: 200px;
+}
+
+ #Tulisan_Besar{
+     font-size: 30px;
+     text-align: left;
+ }
+
+ .Regis_Form{
+     border: 2px solid black; 
+     width: 50%;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+.Login_Button{
+     text-align: left;
+}
+
+.Login_Button a{
+    text-decoration: none;
+    color: #38b6ff;
+}
+
+.Regis_Form hr{
+    border-color: #38b6ff;
+}
+
+form{
+    text-align: left;
+}
